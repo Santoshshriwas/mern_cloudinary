@@ -1,0 +1,66 @@
+.header-1{
+  font-size: 24px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  border-bottom: 3px solid black ;
+  /* background-color: beige; */
+
+}
+body{
+  background-color: azure;
+}
+a{
+  text-decoration: none;
+}
+.footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 24px;
+}
+.insert{
+  display: grid;
+  justify-content: center;
+  /* background-color: antiquewhite; */
+  width: 600px;
+  margin-left: 450px;
+
+  
+}
+.insert input{
+  font-size: 18px;
+  
+}
+
+.insert button{
+  background-color: blue;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin-left: 120px;
+}
+
+.food-display{
+  margin: 10px;
+
+}
+.food-display h2{
+  font-size: max(2vw,18px);
+  font-weight: 600;
+}
+.food-display-list{
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  margin-top: 30px;
+  margin-left: 250px;
+  row-gap: 50px;
+}
